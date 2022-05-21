@@ -9,6 +9,10 @@ const theme = createTheme({
 		secondary: {
 			main: colors.green,
 		},
+		text: {
+			primary: colors.darkcyan,
+			secondary: colors.green,
+		}
 	},
 	typography: {
 		fontFamily: ['"Poppins"', '"Helvetica Neue"'].join(','),

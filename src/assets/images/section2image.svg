@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="674.064" height="359.494" viewBox="0 0 674.064 359.494">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6adcba" stop-opacity="0.224"/>
+      <stop offset="1" stop-color="#def7ea" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_208" data-name="Grupo 208" transform="translate(-1142.968 -1158.503)">
+    <path id="Trazado_2" data-name="Trazado 2" d="M25.5,0H648.565a25.5,25.5,0,0,1,25.5,25.5v305.99a25.5,25.5,0,0,1-25.5,25.5H25.5A25.5,25.5,0,0,1,0,331.489V25.5A25.5,25.5,0,0,1,25.5,0Z" transform="translate(1142.968 1161.009)" fill="#fff" opacity="0.649"/>
+    <path id="Trazado_3" data-name="Trazado 3" d="M25.5,0H648.565c17.655-.386,24.621,17.052,24.621,18.5l.857,18.09c0,1.443-11.4,0-25.478,0H25.5c-14.083,0-25.5-1.17-25.5-2.613V24.128C0,12.633,11.416,0,25.5,0Z" transform="translate(1142.968 1161.009)" fill="#fff" opacity="0.998"/>
+    <text id="x" transform="translate(1165 1187.503)" fill="#29cd9c" font-size="27" font-family="SegoeUI, Segoe UI" opacity="0.694"><tspan x="0" y="0">x</tspan></text>
+    <rect id="Rectángulo_7" data-name="Rectángulo 7" width="251" height="11" rx="5" transform="translate(1537 1174.503)" fill="#29cd9c" opacity="0.694"/>
+    <rect id="Rectángulo_8" data-name="Rectángulo 8" width="215" height="190" transform="translate(1181 1235.503)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_76" data-name="Rectángulo 76" width="144" height="86" transform="translate(1476 1235.503)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_77" data-name="Rectángulo 77" width="144" height="86" transform="translate(1644 1235.503)" fill="url(#linear-gradient)"/>
+    <rect id="Rectángulo_9" data-name="Rectángulo 9" width="297" height="16" transform="translate(1476 1365.503)" fill="rgba(69,204,164,0.47)"/>
+    <rect id="Rectángulo_10" data-name="Rectángulo 10" width="249" height="9" transform="translate(1476 1392.503)" fill="rgba(106,220,186,0.31)"/>
+    <rect id="Rectángulo_15" data-name="Rectángulo 15" width="265" height="9" transform="translate(1476 1445.503)" fill="rgba(106,220,186,0.31)"/>
+    <rect id="Rectángulo_11" data-name="Rectángulo 11" width="265" height="9" transform="translate(1476 1410.503)" fill="rgba(106,220,186,0.31)"/>
+    <rect id="Rectángulo_14" data-name="Rectángulo 14" width="274" height="9" transform="translate(1476 1463.503)" fill="rgba(106,220,186,0.31)"/>
+    <rect id="Rectángulo_12" data-name="Rectángulo 12" width="268" height="9" transform="translate(1476 1428.503)" fill="rgba(106,220,186,0.31)"/>
+    <rect id="Rectángulo_13" data-name="Rectángulo 13" width="255" height="9" transform="translate(1476 1481.503)" fill="rgba(106,220,186,0.31)"/>
+  </g>
+</svg>
+
