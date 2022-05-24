@@ -34,15 +34,24 @@ export const ContactSwitchTextRight = styled.div<SwitchProps>`
 
 export const TextContainer = styled.div`
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
   p {
     font-size: 1.4rem;
     color: #161B5D;
   }
 
-  div {
+  a {
+    margin-left: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 80px;
+    width: 80px;
+    background: #fff;
+    box-shadow: 0px 53px 66px rgba(40, 226, 170, 0.2);
+    border-radius: 20px;
   }
 `;
