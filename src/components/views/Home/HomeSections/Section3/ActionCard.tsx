@@ -1,7 +1,7 @@
 import { ICardServicioProps } from './CardServicio';
 import * as React from 'react';
 import { colors } from '../../../../utils';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import { RiArrowRightFill, RiArrowLeftFill } from 'react-icons/ri';
 import { ButtonPrimaryRounded } from '../../../../layout/common/Buttons';
 import { Box, Grid, Typography } from '@mui/material';
 
@@ -16,7 +16,6 @@ const ActionCard: React.FunctionComponent<IActionCardProps> = props => {
 
 	const handleClickButtonPrev = () => {
 		const prevServicio = servicioActual - 1;
-		console.log(servicios.length);
 		if (prevServicio === 0) return setServicioActual(servicios.length);
 		setServicioActual(prevServicio);
 	};
@@ -27,8 +26,6 @@ const ActionCard: React.FunctionComponent<IActionCardProps> = props => {
 		setServicioActual(nextServicio);
 	};
 
-	console.log(servicioActual);
-
 	return (
 		<Box marginBottom={3}>
 			<Typography
@@ -36,33 +33,28 @@ const ActionCard: React.FunctionComponent<IActionCardProps> = props => {
 				color={colors.darkcyan}
 				fontWeight={900}
 				textAlign={'center'}
-				marginBottom={20}
+				marginBottom={15}
 			>
 				Nuestros servicios
 			</Typography>
 
-			<Grid container>
-				<Grid item xs={6}>
-					<Box textAlign={'center'}>
-						<ButtonPrimaryRounded
-							onClick={handleClickButtonPrev}
-						>
-							<FaArrowLeft
-								color={colors.darkcyan}
-								size={18}
-							/>
-						</ButtonPrimaryRounded>
-					</Box>
+			<Grid container spacing={3}>
+				<Grid item xs={6} textAlign={'end'}>
+					<ButtonPrimaryRounded onClick={handleClickButtonPrev}>
+						<RiArrowLeftFill
+							color={colors.darkcyan}
+							size={50}
+							style={{ marginRight: '5px' }}
+						/>
+					</ButtonPrimaryRounded>
 				</Grid>
 				<Grid item xs={6}>
-					<Box textAlign={'center'}>
-						<ButtonPrimaryRounded
-							background={true}
-							onClick={handleClickButtonNext}
-						>
-							<FaArrowRight color={'white'} size={18} />
-						</ButtonPrimaryRounded>
-					</Box>
+					<ButtonPrimaryRounded
+						background={true}
+						onClick={handleClickButtonNext}
+					>
+						<RiArrowRightFill color={'white'} size={50} />
+					</ButtonPrimaryRounded>
 				</Grid>
 			</Grid>
 		</Box>

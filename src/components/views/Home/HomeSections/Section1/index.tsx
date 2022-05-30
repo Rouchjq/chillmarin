@@ -4,7 +4,7 @@ import ImageBanner from './ImageBanner';
 import { Grid, Container as ContainerMU } from '@mui/material';
 
 const Section1Container = styled(ContainerMU)`
-	padding: 200px 0px 300px 0px;
+	padding: 200px 0px 120px 0px;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;

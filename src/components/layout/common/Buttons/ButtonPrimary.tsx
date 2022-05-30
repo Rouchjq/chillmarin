@@ -31,11 +31,11 @@ export const ButtonPrimaryRounded: React.FunctionComponent<IButtonPrimaryRounded
 	<Button
 		onClick={props.onClick}
 		variant={props.background ? 'contained' : 'outlined'}
-		size={'large'}
+		size={'small'}
 		color={'primary'}
 		style={{
 			borderRadius: '75%',
-			padding: '25px',
+			padding: '10px',
 			border: props.background ? 0 : `3px solid ${colors.darkcyan}`,
 		}}
 	>

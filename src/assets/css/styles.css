@@ -6,7 +6,7 @@ body {
 	line-height: 1.5;
 	color: #212529;
 	text-align: left;
-	background-color: #fff;
+	background-color: #f6f6f6;
 }
 
 .fadeOut {
@@ -20,4 +20,16 @@ body {
 	width: 100px;
 	height: 100px;
 	transition: width 0.3s, height 0.3s, opacity 0.3s 0.3s;
+}
+
+.required {
+	color: #e31738;
+}
+
+.Toastify__toast-container {
+	width: 400px;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+	background-color: #009688 !important;
 }

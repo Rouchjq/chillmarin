@@ -1,7 +1,13 @@
-const dataSelects = {
+export interface PaginaSelectedProps {
+	titulo: string;
+	ejemplo?: string;
+	requerimientos: string[];
+}
+
+export const dataSelects = {
 	desarrolloWeb: {
 		paginaCorporativa: {
-			titulo: 'Pagina Corporativa',
+			titulo: 'Página Corporativa',
 			ejemplo: 'https://elsaloncitodebelen.com/',
 			requerimientos: [
 				'Hasta 5 secciones, ejemplo: Inicio, servicio, nosotros y contacto',
