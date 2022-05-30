@@ -34,7 +34,6 @@ const theme = createTheme({
 		secondary: {
 			main: colors.green,
 		},
-<<<<<<< HEAD
 		warning: {
 			main: colors.warning,
 		},
@@ -49,12 +48,6 @@ const theme = createTheme({
 			main: colors.white,
 			contrastText: colors.green,
 		},
-=======
-		text: {
-			primary: colors.darkcyan,
-			secondary: colors.green,
-		}
->>>>>>> 7507288c28401b000720e0dd68f2686998c3aeec
 	},
 	components: { MuiInputBase: { styleOverrides: { root: { color: colors.dark } } } },
 	typography: {
